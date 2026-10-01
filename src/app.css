@@ -1,0 +1,32 @@
+:root {
+  --mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light;
+  color: #26282b;
+  background-color: #e6e3de;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100dvh;
+  /* A soft desk surface so the calculator sits on something */
+  background:
+    radial-gradient(120% 90% at 50% 0%, #f2efe9 0%, #e2ded7 55%, #d5d1ca 100%);
+}
+
+#app {
+  min-height: 100dvh;
+}
+
+kbd {
+  font-family: var(--mono);
+}
