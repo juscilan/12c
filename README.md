@@ -3,8 +3,6 @@
 A faithful HP-12C financial calculator, rebuilt from the Owner's Handbook as a
 Svelte 5 + TypeScript app.
 
-![The calculator showing the daily production example](docs/screenshot.png)
-
 <p align="center">
   <img src="docs/screenshot-mobile.png" alt="The calculator on a phone sized screen" width="300">
 </p>
